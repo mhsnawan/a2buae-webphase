@@ -1,0 +1,93 @@
+[03-Apr-2020 07:53:00 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Parser.php:120
+Stack trace:
+#0 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Parser.php(43): Dotenv\Parser::parseUnquotedValue('Appsrhino Taxi')
+#1 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Loader.php(237): Dotenv\Parser::parseValue('Appsrhino Taxi')
+#2 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Loader.php(151): Dotenv\Loader->sanitiseVariableValue('APP_NAME', 'Appsrhino Taxi')
+#3 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Loader.php(128): Dotenv\Loader->processFilters('APP_NAME', 'Appsrhino Taxi')
+#4 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Loader.php(323): Dotenv\Loader->normaliseEnvironmentVariable('APP_NAME=Appsrh...', NULL)
+#5 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Loader.php(89): Dotenv\Loader->setEnvironmentVariable('APP_ in /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Parser.php on line 120
+[03-Apr-2020 07:53:02 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Dotenv values containing spaces must be surrounded by quotes. in /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Parser.php:120
+Stack trace:
+#0 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Parser.php(43): Dotenv\Parser::parseUnquotedValue('Appsrhino Taxi')
+#1 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Loader.php(237): Dotenv\Parser::parseValue('Appsrhino Taxi')
+#2 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Loader.php(151): Dotenv\Loader->sanitiseVariableValue('APP_NAME', 'Appsrhino Taxi')
+#3 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Loader.php(128): Dotenv\Loader->processFilters('APP_NAME', 'Appsrhino Taxi')
+#4 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Loader.php(323): Dotenv\Loader->normaliseEnvironmentVariable('APP_NAME=Appsrh...', NULL)
+#5 /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Loader.php(89): Dotenv\Loader->setEnvironmentVariable('APP_ in /home/appsrhino/public_html/taxi/vendor/vlucas/phpdotenv/src/Parser.php on line 120
+[27-Sep-2020 11:56:42 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'PDO' not found in /home1/webphase/public_html/portal/config/database.php:16
+Stack trace:
+#0 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(60): require()
+#1 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#2 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#3 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#4 /home1/webphase/public_html/portal/vendor/laravel/framework/sr in /home1/webphase/public_html/portal/config/database.php on line 16
+[14-Oct-2020 16:02:13 UTC] PHP Warning:  require(/home1/webphase/public_html/portal/vendor/composer/../symfony/polyfill-php70/bootstrap.php): failed to open stream: No such file or directory in /home1/webphase/public_html/portal/vendor/composer/autoload_real.php on line 66
+[14-Oct-2020 16:02:13 UTC] PHP Warning:  require(/home1/webphase/public_html/portal/vendor/composer/../symfony/polyfill-php70/bootstrap.php): failed to open stream: No such file or directory in /home1/webphase/public_html/portal/vendor/composer/autoload_real.php on line 66
+[14-Oct-2020 16:02:13 UTC] PHP Fatal error:  require(): Failed opening required '/home1/webphase/public_html/portal/vendor/composer/../symfony/polyfill-php70/bootstrap.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/webphase/public_html/portal/vendor/composer/autoload_real.php on line 66
+[14-Oct-2020 16:02:15 UTC] PHP Warning:  require(/home1/webphase/public_html/portal/vendor/composer/../symfony/polyfill-php70/bootstrap.php): failed to open stream: No such file or directory in /home1/webphase/public_html/portal/vendor/composer/autoload_real.php on line 66
+[14-Oct-2020 16:02:15 UTC] PHP Warning:  require(/home1/webphase/public_html/portal/vendor/composer/../symfony/polyfill-php70/bootstrap.php): failed to open stream: No such file or directory in /home1/webphase/public_html/portal/vendor/composer/autoload_real.php on line 66
+[14-Oct-2020 16:02:15 UTC] PHP Fatal error:  require(): Failed opening required '/home1/webphase/public_html/portal/vendor/composer/../symfony/polyfill-php70/bootstrap.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/webphase/public_html/portal/vendor/composer/autoload_real.php on line 66
+[14-Oct-2020 22:55:59 Asia/Kolkata] PHP Fatal error:  Interface 'Swift_ReplacementFilterFactory' not found in /home1/webphase/public_html/portal/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilterFactory.php on line 16
+[05-Nov-2020 07:19:02 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'PDO' not found in /home1/webphase/public_html/portal/config/database.php:16
+Stack trace:
+#0 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(60): require()
+#1 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#2 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#3 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#4 /home1/webphase/public_html/portal/vendor/laravel/framework/sr in /home1/webphase/public_html/portal/config/database.php on line 16
+[05-Nov-2020 07:19:05 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'PDO' not found in /home1/webphase/public_html/portal/config/database.php:16
+Stack trace:
+#0 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(60): require()
+#1 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#2 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#3 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#4 /home1/webphase/public_html/portal/vendor/laravel/framework/sr in /home1/webphase/public_html/portal/config/database.php on line 16
+[05-Nov-2020 07:19:06 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'PDO' not found in /home1/webphase/public_html/portal/config/database.php:16
+Stack trace:
+#0 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(60): require()
+#1 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#2 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#3 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#4 /home1/webphase/public_html/portal/vendor/laravel/framework/sr in /home1/webphase/public_html/portal/config/database.php on line 16
+[05-Nov-2020 07:19:07 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'PDO' not found in /home1/webphase/public_html/portal/config/database.php:16
+Stack trace:
+#0 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(60): require()
+#1 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#2 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#3 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#4 /home1/webphase/public_html/portal/vendor/laravel/framework/sr in /home1/webphase/public_html/portal/config/database.php on line 16
+[05-Nov-2020 07:19:09 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'PDO' not found in /home1/webphase/public_html/portal/config/database.php:16
+Stack trace:
+#0 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(60): require()
+#1 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#2 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#3 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#4 /home1/webphase/public_html/portal/vendor/laravel/framework/sr in /home1/webphase/public_html/portal/config/database.php on line 16
+[05-Nov-2020 07:19:12 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'PDO' not found in /home1/webphase/public_html/portal/config/database.php:16
+Stack trace:
+#0 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(60): require()
+#1 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#2 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#3 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#4 /home1/webphase/public_html/portal/vendor/laravel/framework/sr in /home1/webphase/public_html/portal/config/database.php on line 16
+[05-Nov-2020 07:19:13 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'PDO' not found in /home1/webphase/public_html/portal/config/database.php:16
+Stack trace:
+#0 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(60): require()
+#1 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#2 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#3 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#4 /home1/webphase/public_html/portal/vendor/laravel/framework/sr in /home1/webphase/public_html/portal/config/database.php on line 16
+[05-Nov-2020 07:19:14 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'PDO' not found in /home1/webphase/public_html/portal/config/database.php:16
+Stack trace:
+#0 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(60): require()
+#1 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#2 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#3 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#4 /home1/webphase/public_html/portal/vendor/laravel/framework/sr in /home1/webphase/public_html/portal/config/database.php on line 16
+[05-Nov-2020 07:19:16 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'PDO' not found in /home1/webphase/public_html/portal/config/database.php:16
+Stack trace:
+#0 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(60): require()
+#1 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(38): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#2 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#3 /home1/webphase/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#4 /home1/webphase/public_html/portal/vendor/laravel/framework/sr in /home1/webphase/public_html/portal/config/database.php on line 16

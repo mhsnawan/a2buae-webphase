@@ -1,0 +1,50 @@
+@extends('admin.layout.auth')
+
+@section('content')
+<div class="sign-form">
+    <div class="row">
+        <div class="col-md-7  px-3">
+            <div class="box2 b-a-0">
+                <img src="https://portal.a2buae.com/main/assets/img/photos-1/logo.png" class="img-responsive center" alt="logo">
+                <div class="p-2 text-xs-center">
+                    <h5>Admin Login</h5>
+                </div>
+                <form class="form-material mb-1" role="form" method="POST" action="{{ url('/admin/login') }}" >
+                {{ csrf_field() }}
+                    <div class="form-group {{ $errors->has('email') ? ' has-error' : '' }}">
+                        <input type="email" name="email" required="true" class="form-control" id="email" value="admin@admin.com" placeholder="Email">
+                        @if ($errors->has('email'))
+                            <span class="help-block" style="margin-left: 55px;color: red;">
+                                <strong>{{ $errors->first('email') }}</strong>
+                            </span>
+                        @endif
+                    </div>
+                    <div class="form-group {{ $errors->has('password') ? ' has-error' : '' }}">
+                        <input type="password" name="password" required="true" class="form-control" id="password" value="taxi@admin@@$*" placeholder="Password">
+                        @if ($errors->has('password'))
+                            <span class="help-block" style="margin-left: 55px;color: red;">
+                                <strong>{{ $errors->first('password') }}</strong>
+                            </span>
+                        @endif
+                    </div>
+                    
+                    
+                    <div class="col-lg-6 mb-2 form-group mb-0">
+                        <input type="checkbox" name="remember"> Remember Me
+                    </div>
+                    
+                     <div class="col-lg-6  text-xs-right text-muted">
+                    <a class="text-black" href="{{ url('/admin/password/reset') }}"><span class="underline">Forgot Your Password?</span></a>
+                    </div>
+                   
+                   
+                    <div class="form-group mb-0">
+                        <button type="submit" class="btn btn-purple btn-block text-uppercase">Sign in</button>
+                    </div>
+                </form>
+               
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
